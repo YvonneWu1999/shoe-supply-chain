@@ -42,6 +42,7 @@ class App extends Component {
       await this.loadAsset()
     }
     this.setState({ loading: false })
+    console.log('hi')
   }
 
   constructor(props) {
