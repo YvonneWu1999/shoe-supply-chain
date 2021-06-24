@@ -6,10 +6,9 @@ class Navbar extends Component {
 
   render() {
     return (
-      <nav className="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow text-monospace">
+      <nav className="navbar navbar-light fixed-top  flex-md-nowrap p-0 shadow text-monospace" style={{ backgroundColor: '#e3f2fd' }}>
 
-        {/* <img src={logo} width="30" height="30" className="align-top" alt="" /> */}
-        <h1 style={{ color: "white" }}>  Supply Chain</h1>
+        <h1 className="text-white text-primary px-3 font-weight-bold " >Shoe Supply Chain</h1>
 
         <ul className="navbar-nav px-3">
           <li className="nav-item text-nowrap d-none d-sm-none d-sm-block">

@@ -5,8 +5,9 @@ class Form extends Component {
   render() {
     return (
       <div id='content'>
-        <h1>Create Asset</h1>
-        <p>You must create a new asset before you can track it.</p>
+        <p></p>
+        <h1 className='font-weight-bold'>Create Asset</h1>
+        <p>Create an asset first to track it!</p>
         <form onSubmit={(event) => {
           event.preventDefault()
           const name = this.assetName.value

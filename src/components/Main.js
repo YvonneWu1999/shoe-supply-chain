@@ -8,7 +8,8 @@ class Main extends Component {
   render() {
     return (
       <div id='content'>
-        <h1>{this.props.name}</h1>
+        <p></p>
+        <h1 className='font-weight-bold'>{this.props.name}</h1>
         <table className='table'>
           <thead>
             <tr>
@@ -39,7 +40,7 @@ class Main extends Component {
                 <button
                   className='btn btn-primary'
                   onClick={() => {
-                    let recipient = window.prompt('Who would you like to send the asset to?')
+                    let recipient = window.prompt('Send the asset to?')
                     this.props.sendAsset(recipient)
                   }}
                 >
@@ -56,7 +57,7 @@ class Main extends Component {
             </tr>
           </tbody>
         </table>
-        <h2>History</h2>
+        <h2 className='font-weight-bold'>History</h2>
         <table className='table'>
           <thead>
             <tr>
